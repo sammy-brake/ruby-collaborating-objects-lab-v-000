@@ -12,7 +12,7 @@ class Song
    
     artist = Artist.find_or_create_by_name(split_files[0])
       song.artist = artist
-    Artist.add_song(song)
+    artist.add_song(song)
    
     song 
   end 
