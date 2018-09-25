@@ -11,7 +11,7 @@ class Song
     artist = split_files[0]
     Song.new(song)
     Artist.find_or_create_by_name(artist)
-    song.artist = artist.name 
+    song.artist = artist
     song 
   end 
 
