@@ -10,6 +10,7 @@ class Song
     song = split_files[1]
     artist = split_files[0]
     Song.new(song)
+    Artist.new_or_create_by_name(artist)
     song.artist = artist.name 
     song 
   end 
