@@ -15,7 +15,7 @@ class Song
     artist.add_song(song)
    
     song 
-   artist.all 
+  
   end 
 
 end 
