@@ -10,7 +10,7 @@ class Song
     song = split_files[1]
     artist = split_files[0]
     Song.new(song)
-    song.artist = artist 
+    Song.artist = artist 
     song 
   end 
 
